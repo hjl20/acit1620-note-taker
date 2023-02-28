@@ -3,7 +3,7 @@
 
 header {
     background-color: #faf4ec;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 body {
@@ -47,11 +47,10 @@ header > h2 {
 .grid-body {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    height: 100%;
 }
 
 /* DESKTOP SECOND */
-@media screen and (min-width:600) {
+@media screen and (min-width:600px) {
     .grid-body {
         
     }
