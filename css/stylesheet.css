@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* MOBILE FIRST */
 
+header {
+    background-color: #faf4ec;
+}
+
 body {
+    background-color: #f3e8de;
+}
+
+h1, h2, h3, h4, p, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.darkslategray-btn {
+    color: #375F68;
+}
+
+.auburn-btn {
+    color: #9b332c;
+}
+
+.darktheme-btn {
+    color: #56536A;
 }
 
 
