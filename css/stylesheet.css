@@ -10,8 +10,9 @@ body {
     background-color: #f3e8de;
 }
 
-h1, h2, h3, h4, p, a {
+h2, h3, h4, p, a {
     font-family: 'Open Sans', sans-serif;
+    color: #256993;
 }
 
 .darkslategray-btn {
@@ -26,6 +27,10 @@ h1, h2, h3, h4, p, a {
     color: #56536A;
 }
 
+.grid-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
 /* DESKTOP SECOND */
 @media screen and (min-width:600) {
