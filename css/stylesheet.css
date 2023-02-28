@@ -4,11 +4,11 @@
 header {
     background-color: #faf4ec;
     min-height: 100%;
-    
 }
 
 body {
     background-color: #f3e8de;
+    margin: 0;
 }
 
 h2, h3, h4, p, a, ul {
@@ -22,6 +22,11 @@ h2, h3 {
 
 ul {
     list-style-type: square;
+}
+
+header > h2 {
+    margin: 0;
+    padding-top: 10%;
 }
 
 .darkslategray-btn {
@@ -41,11 +46,13 @@ ul {
 
 .grid-body {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     height: 100%;
 }
 
 /* DESKTOP SECOND */
 @media screen and (min-width:600) {
-    
+    .grid-body {
+        
+    }
 }
