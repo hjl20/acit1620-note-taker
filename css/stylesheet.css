@@ -10,9 +10,17 @@ body {
     background-color: #f3e8de;
 }
 
-h2, h3, h4, p, a {
+h2, h3, h4, p, a, ul {
     font-family: 'Open Sans', sans-serif;
     color: #256993;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
 }
 
 .darkslategray-btn {
