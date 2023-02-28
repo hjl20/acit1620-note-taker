@@ -29,6 +29,12 @@ header > h2 {
     padding-top: 10%;
 }
 
+
+
+footer {
+    
+}
+
 .darkslategray-btn {
     background-color: #375F68;
     color: white;
@@ -49,9 +55,24 @@ header > h2 {
     grid-template-columns: 1fr 4fr;
 }
 
+.flexbox-top-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-bottom-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexbox-footer-imgs {
+    display: flex;
+    justify-content: center;
+}
+
 /* DESKTOP SECOND */
 @media screen and (min-width:600px) {
     .grid-body {
-        
+
     }
 }
