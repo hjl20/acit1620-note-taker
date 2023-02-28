@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /* MOBILE FIRST */
 
 header {
     background-color: #faf4ec;
+    min-height: 100%;
 }
 
 body {
@@ -15,7 +15,7 @@ h2, h3, h4, p, a, ul {
     color: #256993;
 }
 
-h2 {
+h2, h3 {
     text-align: center;
 }
 
@@ -24,20 +24,24 @@ ul {
 }
 
 .darkslategray-btn {
-    color: #375F68;
+    background-color: #375F68;
+    color: white;
 }
 
 .auburn-btn {
-    color: #9b332c;
+    background-color: #9b332c;
+    color: white;
 }
 
 .darktheme-btn {
-    color: #56536A;
+    background-color: #56536A;
+    color: white;
 }
 
 .grid-body {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
+    height: 100%;
 }
 
 /* DESKTOP SECOND */
