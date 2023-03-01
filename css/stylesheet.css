@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-/* MOBILE FIRST */
+/* DESKTOP */
 
 header {
     background-color: #faf4ec;
@@ -95,16 +95,26 @@ button {
     justify-content: center;
 }
 
-@media screen and (max-height:575px) {
-    footer {
-        display: none;
+/* SHIFT FOOTER WHEN SMALLER SCREEN */
+@media screen and (max-height:700px) {
+    .grid-body-col-2 {
+        grid-template-rows: 2fr 1fr;
     }
 }
 
-/* DESKTOP SECOND */
-@media screen and (min-width:600px) {
+/* MOBILE */
+@media screen and (max-width:600px) {
     .grid-body {
+        display: block;
+    }
 
+    header {
+        min-height: 5vh;
+    }
+
+    h2 {
+        padding-top: 1vh;
+        margin: 0;
     }
     
 }
