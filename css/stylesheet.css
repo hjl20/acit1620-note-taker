@@ -6,6 +6,15 @@ header {
     min-height: 100vh;
 }
 
+header > h2 {
+    margin: 0;
+    padding-top: 5vh;
+}
+
+ul {
+    list-style-type: square;
+}
+
 body {
     background-color: #f3e8de;
     margin: 0;
@@ -20,25 +29,11 @@ h2, h3 {
     text-align: center;
 }
 
-ul {
-    list-style-type: square;
-}
-
-header > h2 {
-    margin: 0;
-    padding-top: 10%;
-}
-
 button {
     padding: 1.5vh;
     border-radius: 10px;
     cursor: pointer;
-    margin: 1% 1%;
-}
-
-
-footer {
-    
+    margin: 1vh 1vw;
 }
 
 .darkslategray-btn {
@@ -59,6 +54,11 @@ footer {
 .grid-body {
     display: grid;
     grid-template-columns: 1fr 4fr;
+}
+
+.grid-body-col-2 {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
 }
 
 .flexbox-top-btns {
@@ -86,9 +86,16 @@ footer {
     justify-content: center;
 }
 
+@media screen and (max-height:575px) {
+    footer {
+        display: none;
+    }
+}
+
 /* DESKTOP SECOND */
 @media screen and (min-width:600px) {
     .grid-body {
 
     }
+    
 }
