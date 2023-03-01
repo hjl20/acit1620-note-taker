@@ -66,6 +66,15 @@ footer {
     justify-content: space-between;
 }
 
+.flexbox-textarea {
+    display: flex;
+    justify-content: center;
+    margin: 1vh 1vw;
+}
+
+.flexbox-textarea > textarea {
+    flex: 1;
+}
 
 .flexbox-bottom-btns {
     display: flex;
