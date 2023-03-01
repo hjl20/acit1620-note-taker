@@ -29,6 +29,12 @@ header > h2 {
     padding-top: 10%;
 }
 
+button {
+    padding: 1.5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1% 1%;
+}
 
 
 footer {
@@ -59,6 +65,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
 
 .flexbox-bottom-btns {
     display: flex;
