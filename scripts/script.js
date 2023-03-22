@@ -39,23 +39,34 @@ darkThemeBtn.addEventListener("click", toggleDarkTheme)
 // text area, save, and cancel buttons.
 
 cancelBtn = document.querySelector(".auburn-btn")
+textArea = document.querySelector("#textarea-note")
+saveBtn = document.querySelector("#save-btn")
 
-const hideContent = () => {
-    textArea = document.querySelector("#textarea-note")
-    saveBtn = document.querySelector("#save-btn")
+const hideNoteContent = () => {
 
     textArea.classList.add("hidden")
     saveBtn.classList.add("hidden")
     cancelBtn.classList.add("hidden")
 } 
 
-cancelBtn.addEventListener("click", hideContent)
+cancelBtn.addEventListener("click", hideNoteContent)
 
 // If the textarea, save and cancel buttons are hidden, 
 // pressing "New Note" button would make them visible. 
 // After that pressing “New Note” again should clear the text area.
 
+newNoteBtn = document.querySelector("#newnote-btn")
 
+const showNoteContent = () => {
+
+    textArea.classList.remove("hidden")
+    saveBtn.classList.remove("hidden")
+    cancelBtn.classList.remove("hidden")
+
+    textArea.value = ""
+} 
+
+newNoteBtn.addEventListener("click", showNoteContent)
 
 // Declare an array (notesArray) in your JS code with JS note objects 
 // in this format: {title:"note one", body:"this is my first note"}. 
