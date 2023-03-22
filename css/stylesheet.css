@@ -5,10 +5,6 @@ header {
     background-color: #faf4ec;
 }
 
-.header-dark {
-    background-color: #393c4f;
-}
-
 ul {
     list-style-type: square;
 }
@@ -18,21 +14,9 @@ body {
     margin: 0;
 }
 
-.body-dark {
-    background-color: #191a24;
-}
-
 h2, h3, h4, p, a, ul {
     font-family: 'Open Sans', sans-serif;
     color: #256993;
-}
-
-.text-dark {
-    color: #F5DEB3
-}
-
-.img-dark {
-    background-color: #F5DEB3
 }
 
 h2, h3 {
@@ -50,6 +34,26 @@ button {
     cursor: pointer;
     margin: 1vh 1vw;
 }
+
+/* DARK THEME */
+
+.header-dark {
+    background-color: #393c4f;
+}
+
+.body-dark {
+    background-color: #191a24;
+}
+
+.text-dark {
+    color: #F5DEB3
+}
+
+.img-dark {
+    background-color: #F5DEB3
+}
+
+/* CLASSES */
 
 .ul-about {
     list-style-type: none;
