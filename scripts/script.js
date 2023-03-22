@@ -113,10 +113,20 @@ are clicked, you should search through notesArray and find the
 JS object with its title property equal to the text of the clicked item. 
 Then display the value of its body property in the text area. */
 
+const showNote = event => {
+    let clickedTitle = event.target.textContent
+    for (let note of notesArray) {
+        if (note.title == clickedTitle) {
+            textArea.value = note.body
+        }
+    }
+}
+
 // Add one event handler on the parent of the list items 
 // to take advantage of event bubbling, 
 // rather than adding one event listener for each list item. 
 
+notesUl.addEventListener("click", showNote)
 
 
 /* After you are done with your work, push your branch to Github, 
