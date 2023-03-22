@@ -27,6 +27,10 @@ h2, h3, h4, p, a, ul {
     color: #256993;
 }
 
+.text-dark {
+    color: #F5DEB3
+}
+
 h2, h3 {
     text-align: center;
 }
