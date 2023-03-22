@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Note Taker</title>
+    <script src="scripts/script.js" defer></script>
 </head>
 <body class="grid-body">
     <div>
         <header>
             <h2>My Notes</h2>
             <nav>
-                <ul>
+                <ul id="mynotes-ul">
                     <li>note one</li>
                     <li>note two</li>
                 </ul>
@@ -26,7 +27,7 @@
                 <p>Docs</p>
             </div>
             <div class="flexbox-top-btns">
-                <button class="darkslategray-btn" type="button">New Note</button>
+                <button id="newnote-btn" class="darkslategray-btn" type="button">New Note</button>
                 <button class="darktheme-btn" type="button">Dark Theme</button>
             </div>
             
@@ -35,7 +36,7 @@
             </div>
     
             <div class="flexbox-right-align">
-                <button class="darkslategray-btn" type="button">Save</button>
+                <button id="save-btn" class="darkslategray-btn" type="button">Save</button>
                 <button class="auburn-btn" type="button">Cancel</button>
             </div>
         </main>

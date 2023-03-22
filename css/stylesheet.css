@@ -35,6 +35,26 @@ button {
     margin: 1vh 1vw;
 }
 
+/* DARK THEME */
+
+.header-dark {
+    background-color: #393c4f;
+}
+
+.body-dark {
+    background-color: #191a24;
+}
+
+.text-dark {
+    color: #F5DEB3
+}
+
+.img-dark {
+    background-color: #F5DEB3
+}
+
+/* CLASSES */
+
 .ul-about {
     list-style-type: none;
 }
@@ -81,6 +101,10 @@ button {
 .flexbox-footer-imgs {
     display: flex;
     justify-content: center;
+}
+
+.hidden {
+    display: none
 }
 
 /* SHIFT FOOTER WHEN SMALLER SCREEN */
