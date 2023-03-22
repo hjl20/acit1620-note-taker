@@ -103,6 +103,8 @@ const saveNote = () => {
     noteLi = document.createElement("li")
     noteLi.appendChild(document.createTextNode(noteTitle))
     notesUl.appendChild(noteLi)
+
+    textArea.value = ""
 }
 
 saveBtn.addEventListener("click", saveNote)
