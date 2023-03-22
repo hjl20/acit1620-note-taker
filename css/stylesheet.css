@@ -99,6 +99,10 @@ button {
     justify-content: center;
 }
 
+.hidden {
+    display: none
+}
+
 /* SHIFT FOOTER WHEN SMALLER SCREEN */
 @media screen and (max-height:700px) {
     .grid-body-col-2 {
